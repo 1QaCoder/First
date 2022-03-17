@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FirstProject">
+ <test name="tab testing">
+ 
+ <groups>
+<run>
+<exclude name = "groupingMethods1">
+</exclude>
+</run>
+ </groups>
+ <classes>
+ 	<class name="Assignment.Assignment1" />
+ </classes>
+ </test>
+ </suite>
